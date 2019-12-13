@@ -2,10 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+
 
 .App-header {
   background-color: #222;
@@ -22,14 +19,33 @@
   font-size: large;
 }
 
-form{
-  border: 1pixel solid black;
+.form{
+  border: 5pixel solid black;
+  background-color: powderblue;
+  width: 40%;
+  margin: 2% 30% auto;
+  border-radius:8px;
 }
 
 .smurfCard {
-  width: 30%;
-  border: 1px solid black;
-  margin-top:10% auto;
-  margin-bottom:10% auto;
-  background-color:pink;
+  width: 40%;
+  border: 5px solid silver;
+ margin: 3% 30% auto;
+border-radius: 8px;
+ 
+
+   background-color:pink;
+}
+
+.smurfCards{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+  border-radius: 8px;
+}
+
+button {
+  border-radius: 5px;
+  background-color: yellow;
 }
